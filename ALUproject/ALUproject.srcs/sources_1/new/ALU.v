@@ -1,7 +1,5 @@
 // ALU PROJECT (Arithmetic Logic Unit for EE118, Digital Design)
-// Designer: Daniyaal Ahmed, Student ID = 012257337
-// Last 4: 7337, A = 73, B = 37
-// Binary rep: A = 1001001 , B = 0100101
+// Designer: Daniyaal Ahmed
 
 `timescale 1ns / 1ps
 
@@ -75,7 +73,7 @@ module sevenBitAdder(swt, led);
 endmodule
 
 
-// Designer: Daniyaal Ahmed, Student ID = 012257337
+
 //subtracts two 7 bit numbers, uses 7 full adders and twos compliment
 module subtractor(swt, led);
 
@@ -95,7 +93,7 @@ endmodule
 
 
 
-// Designer: Daniyaal Ahmed, Student ID = 012257337
+
 //compares A and B, two 7 bit inputs and displays on the 7 segment led display
 module fullComparator(swt, seg);
     input [13:0]swt; //A = SWT[6:0] and B = SWT[13:7]
@@ -123,7 +121,7 @@ begin
 endcase
     end
 endmodule
-// Designer: Daniyaal Ahmed, Student ID = 012257337
+// Designer: Daniyaal Ahmed
 // compares two 2bit numbers, used in above module for comparator
 
 
@@ -140,7 +138,7 @@ module twoBitComp(a, b, g, e, l);
 endmodule
 
 
-// Designer: Daniyaal Ahmed, Student ID = 012257337
+
 
 
 // Multiplies two 7 bit inputs
@@ -219,7 +217,7 @@ Node1 c49(led[13], led[12], swt[6], swt[13], h47, h42);
 endmodule
 
 
-// Designer: Daniyaal Ahmed, Student ID = 012257337
+
 // Node that puts oneBitAdder and AND gate together to make one Node Block of Array Multiplier
 module Node1(hcout, vcout, a, b, hcin, vcin);
     input a, b, hcin, vcin; //input is the 2 bits, along with the horizontal and vertical carry in
@@ -232,7 +230,6 @@ module Node1(hcout, vcout, a, b, hcin, vcin);
 endmodule
 
 
-// Designer: Daniyaal Ahmed, Student ID = 012257337
 // adds two, 1bit numbers together
 
 module oneBitAdder(sum, cout, a, b, cin);
