@@ -8,4 +8,3 @@ NEXY A7 100T FPGA board and included the following computation for two binary in
 switches on the board: multiplication, addition, comparison and two's complement subtraction
 
 
-#Installation
